@@ -36,7 +36,7 @@ def write_html():
                 resposta  += '<br>' 
             final += str_quest+'<br>'+resposta+'<br><br>'
         
-
+        print(final)
         with open("resp.html", "w", encoding='utf-8') as f:
             f.write(final)
     # Retorna uma resposta para o cliente
